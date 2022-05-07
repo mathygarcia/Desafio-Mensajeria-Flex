@@ -1,0 +1,230 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(87, 85, 85);
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    display: flex;
+}
+
+/* --------------------------------------seccion de contactos-------------------------------- */
+
+.contactos{
+    display: flex;
+    flex-direction: column;
+    background-color: #FFF;
+    width: 29%;
+    min-height: 95vh;
+    border-left: solid 1px #BEC1BB;
+    border-top: solid 1px #BEC1BB;
+    border-bottom: solid 1px #BEC1BB;
+
+} 
+
+/* ###############################################*/
+/* --------------------------card usuario------------------------------*/
+
+/* contenedor padre */
+.user{
+    display: flex;
+    justify-content: center;
+    border-bottom: solid 1px #BEC1BB;
+    width: 100%;
+    height: 100%;
+}
+
+/* contenedor hermano */
+.card-user{
+    display: flex;
+    justify-content: space-around;
+    flex-grow: 1;
+}
+
+/* contenedor hijo */
+.foto-perfil{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 49%;
+}
+
+.foto{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
+.img-user{
+    display: flex;
+    width: 90%;
+    border-radius: 50%;
+}
+
+.tex{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 40%;
+}
+.tex h4{
+    font-size: 30px;
+    font-weight: normal;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+.tex p{
+    font-size: 15px;
+    font-weight: normal;
+    text-align: left;
+    color: #c7cac2;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+
+}
+
+/* contenedor hijo */
+.opcion{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 39%;
+}
+
+.fa-message{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-size: 25px;
+    color: #828485;
+    width: 40%;
+}
+
+.fa-bars{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    color: #828485;
+    width: 40%;
+
+}
+
+
+
+
+/* ------------------Button-------------------- */
+
+.boton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: solid 1px #BEC1BB;
+    flex-grow: 1;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 1px;
+    padding-right: 1px;
+    width: 100%;
+    height: 100%;
+    /* font-size: 100%; */
+}
+
+.boton button{
+    background-color: #A491D2;
+    border: none;
+    color: #E8EBE4;
+    padding: 8px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    /* font-size: 16px; */
+    /* padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 1px;
+    padding-right: 1px; */
+}
+
+/*------------------------ card de contactos -------------------------*/
+.card{
+    display: flex;
+    border-bottom: solid 1px #BEC1BB;
+    width: 100%;
+    height: 100%;
+}
+
+/* contenedor padre */
+.card-header{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-grow: 1;
+    padding-top: 0.25em;
+    padding-bottom: 0.25em;
+    
+}
+
+/* contenedores hijos */
+.img-contact{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+
+}
+
+.img-contact img{
+    width: 60%;
+    border-radius: 50%;
+}
+
+/* contenedores hijos */
+.texto{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 50%;
+
+}
+
+.texto h3{
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    color: #000000;
+    font-weight: normal;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+.texto p{
+    font-size: 15px;
+    font-weight: normal;
+    color: #2a2b29;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+/* -------------------------------------------seccion principal------------------------------------- */
+
+.principal{
+    background-color: #E8EBE4;
+    display: flex;
+    flex-direction: column;
+    width: 69%;
+    min-height: 95vh;
+    align-items: center;
+    justify-content: center;
+    border: solid 1px #BEC1BB;
+}
+
+.principal img{
+    width: 25%;
+    border-radius: 4%;
+}
+
